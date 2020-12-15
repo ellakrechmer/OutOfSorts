@@ -9,6 +9,8 @@ public class SortsTester{
       a[i]=rng.nextInt() % 10;
     }
     System.out.println(toString(a));
+    Sorts.bubbleSort(a);
+    System.out.println(toString(a));
   }
   public static String toString(int[] data) {
     if (data.length==0) return "[]";
