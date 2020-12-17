@@ -23,7 +23,7 @@ public class Sorts{
   public static void selectionSort(int[] data){
     for (int i=0; i<data.length; i++){
       int minindex=i;
-      for (int j=i+1; j<data.length; j++){
+      for (int j=i; j<data.length; j++){
         if (data[j]<data[i]) {
           minindex=j;
         }
