@@ -24,8 +24,8 @@ public class Sorts{
     for (int i=0; i<data.length; i++){
       int min=data[i];
       int minindex=i;
-      for (int j=i+1; j<data.length; j++){
-        if (data[j]<data[i]) {
+      for (int j=i; j<data.length; j++){
+        if (data[j]<min) {
           min=data[j];
           minindex=j;
         }
