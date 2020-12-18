@@ -34,4 +34,7 @@ public class Sorts{
       data[i]=min;
     }
   }
+  public static void insertionSort(int[] data) {
+
+  }
 }

@@ -37,5 +37,19 @@ public class Driver{
        System.out.println("Selection Not Correct!!!!!!!!!");
       }
     }
+
+    //INSERTION
+    if(args[1].equals("insertion")){
+      int[] randDataInsertion = Arrays.copyOf(randData,randData.length);
+      Arrays.sort(randData);
+      Sorts.insertionSort(randDataInsertion);
+
+      if( Arrays.equals(randData,randDataInsertion)){
+        System.out.println("Insertion Correct!");
+      }
+      else{
+       System.out.println("Insertion Not Correct!!!!!!!!!");
+      }
+    }
   }
 }
